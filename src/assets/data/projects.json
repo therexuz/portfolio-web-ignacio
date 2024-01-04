@@ -1,0 +1,23 @@
+[
+    {
+        "project_title":"Home Automation Wizard",
+        "project_description":"Design and development of home automation and educational system. Related to final work of my degree thesis.",
+        "project_picture":"/assets/img/haw.png",
+        "project_year_date":"2023",
+        "project_months":"MAR - DEC"
+    },
+    {
+        "project_title":"IoT weather station",
+        "project_description":"Development of a web IoT weather station with Flask, PHP, Chart.js in conjunction with Arduino Uno and the BPM280 sensor.",
+        "project_picture":"/assets/img/bpm280.jpg",
+        "project_year_date":"2020",
+        "project_months":"MAR - DEC"
+    },
+    {
+        "project_title":"Athenas Ecommerce",
+        "project_description":"Development of a sport ecommerce website with Angular. Included authentication, inventory and administration.",
+        "project_picture":"/assets/img/athenasecommerce.svg",
+        "project_year_date":"2020",
+        "project_months":"MAR - DEC"
+    }
+]

@@ -1,0 +1,18 @@
+<div id="projects-container">
+    <div class="parent" *ngFor="let project of projects;">
+        <div class="card">
+            <img src="{{project.project_picture}}" alt="{{project.project_title}}" class="card-image">
+            <div class="content-box">
+                <span class="card-title">{{project.project_title}}</span>
+                <p class="card-content">
+                    {{project.project_description}}
+                </p>
+                <span class="see-more">See More</span>
+            </div>
+            <div class="date-box">
+                <span class="month">{{project.project_months}}</span>
+                <span class="date">{{project.project_year_date}}</span>
+            </div>
+        </div>
+    </div>
+</div>
