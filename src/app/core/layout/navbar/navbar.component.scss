@@ -43,10 +43,9 @@
     display: none;
 }
 
-
 @media (max-width:768px) {
 
-    #nav-items{
+    #nav-items {
         display: none;
     }
 
@@ -56,10 +55,9 @@
         transition: color 0.3s ease;
     }
 
-    #menu a:hover{
+    #menu a:hover {
         color: black;
     }
-
 
     #menuToggle {
         display: block;
@@ -122,9 +120,9 @@
     }
 
     /* 
- * Transform all the slices of hamburger
- * into a crossmark.
- */
+    * Transform all the slices of hamburger
+    * into a crossmark.
+    */
     #menuToggle input:checked~span {
         opacity: 1;
         transform: rotate(45deg) translate(-2px, -1px);
@@ -132,25 +130,25 @@
     }
 
     /*
- * But let's hide the middle one.
- */
+    * But let's hide the middle one.
+    */
     #menuToggle input:checked~span:nth-last-child(3) {
         opacity: 0;
         transform: rotate(0deg) scale(0.2, 0.2);
     }
 
     /*
- * Ohyeah and the last one should go the other direction
- */
+    * Ohyeah and the last one should go the other direction
+    */
     #menuToggle input:checked~span:nth-last-child(2) {
         opacity: 1;
         transform: rotate(-45deg) translate(0, -1px);
     }
 
     /*
- * Make this absolute positioned
- * at the top left of the screen
- */
+    * Make this absolute positioned
+    * at the top left of the screen
+    */
     #menu {
         position: absolute;
         width: 300px;
@@ -182,8 +180,8 @@
     }
 
     /*
- * And let's fade it in from the left
- */
+    * And let's fade it in from the left
+    */
     #menuToggle input:checked~ul {
         transform: none;
         opacity: 1;

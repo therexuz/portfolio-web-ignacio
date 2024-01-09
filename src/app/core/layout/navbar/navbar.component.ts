@@ -9,7 +9,5 @@ import { MatSidenavModule } from '@angular/material/sidenav';
  
 })
 export class NavbarComponent {
-  events:any = [];
-
-  shouldRun = [/(^|\.)plnkr\.co$/, /(^|\.)stackblitz\.io$/].some(h => h.test(window.location.host));
+  showFiller = false;
 }

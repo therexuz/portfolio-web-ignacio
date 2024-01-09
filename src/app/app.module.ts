@@ -13,7 +13,7 @@ import { ProjectsComponent } from './core/projects/projects.component'
 import { HttpClientModule } from '@angular/common/http';
 import {MatButtonModule} from '@angular/material/button';
 import {MatSidenavModule} from '@angular/material/sidenav';
-
+import { ContactMeComponent } from './core/contact-me/contact-me.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +22,8 @@ import {MatSidenavModule} from '@angular/material/sidenav';
     HomeComponent,
     ProfileComponent,
     AboutMeComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    ContactMeComponent
 
   ],
   imports: [
