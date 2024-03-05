@@ -7,7 +7,7 @@ import { ProjectService } from 'src/app/shared/projects.service';
   styleUrls: ['./projects.component.scss']
 })
 export class ProjectsComponent {
-  projects:any = [];
+  projects:any = {};
 
   constructor(private projectService:ProjectService){}
 
@@ -16,4 +16,9 @@ export class ProjectsComponent {
       this.projects = data
     })
   }
+
+  getKeys(obj: any): string[] {
+    return Object.keys(obj);
+  }
+  
 }

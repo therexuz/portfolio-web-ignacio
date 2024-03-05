@@ -1,19 +1,27 @@
 <div id="projects-container">
-    <h2 id="p-section-title" >My Projects</h2>
+    <h2 id="p-section-title">My Projects</h2>
     <div id="cards-container">
-        <div class="parent" *ngFor="let project of projects;">
-            <div class="card">
-                <img src="{{project.project_picture}}" alt="{{project.project_title}}" class="card-image">
-                <div class="content-box">
-                    <span class="card-title">{{project.project_title}}</span>
-                    <p class="card-content">
-                        {{project.project_description}}
-                    </p>
-                    <span class="see-more"><a style="text-decoration: none;" href="{{project.project_link}}">See More</a></span>
-                </div>
-                <div class="date-box">
-                    <span class="month">{{project.project_months}}</span>
-                    <span class="date">{{project.project_year_date}}</span>
+        <div class="category" *ngFor="let category of getKeys(projects);">
+            <h3>{{category}}</h3>
+            <div class="card-projects">
+                <div class="parent" *ngFor="let project of projects[category];">
+                    <div class="card">
+                        <img class="card-image" src="{{project.project_picture}}">
+                        <p class="card-title">{{project.project_title}}</p>
+                        <p class="card-body">
+                            {{project.project_description}}
+                        </p>
+
+                        <p class="footer">
+                            <a class="btn" href="{{project.project_link}}">
+                                See project
+                            </a>
+                            <span class="date">{{project.project_months}},
+                                {{project.project_year_date}}.
+                            </span>
+                        </p>
+
+                    </div>
                 </div>
             </div>
         </div>
