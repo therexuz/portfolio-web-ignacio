@@ -76,6 +76,10 @@
     transform: translate3d(0px, 0px, 20px);
 }
 
+.see-more{
+    text-decoration: none;
+}
+
 .content-box .see-more:hover {
     transform: translate3d(0px, 0px, 60px);
 }
