@@ -1,26 +1,64 @@
-[
-    {
-        "project_title":"Home Automation Wizard",
-        "project_description":"Design and development of home automation and educational system. Related to final work of my degree thesis.",
-        "project_picture":"/assets/img/haw.png",
-        "project_year_date":"2023",
-        "project_months":"MAR - DEC",
-        "project_link":"https://github.com/AmandaFlores7/HomeAutomationWizard/tree/main/HAW-FED"
-    },
-    {
-        "project_title":"IoT weather station",
-        "project_description":"Development of a web IoT weather station with Flask, PHP, Chart.js in conjunction with Arduino Uno and the BPM280 sensor.",
-        "project_picture":"/assets/img/bpm280.jpg",
-        "project_year_date":"2020",
-        "project_months":"MAR - DEC",
-        "project_link":""
-    },
-    {
-        "project_title":"Athenas Ecommerce",
-        "project_description":"Development of a sport ecommerce website with Angular. Included authentication, inventory and administration.",
-        "project_picture":"/assets/img/athenasecommerce.svg",
-        "project_year_date":"2020",
-        "project_months":"MAR - DEC",
-        "project_link":"https://github.com/kataplan/AthenasEcommerce"
-    }
-]
+{
+    "IoT and Domotics": [
+        {
+            "project_title":"Home Automation Wizard",
+            "project_description":"Design and development of home automation and educational system. Related to final work of my degree thesis.",
+            "project_picture":"/assets/img/haw.png",
+            "project_year_date":"2023",
+            "project_months":"MAR - DEC",
+            "project_link":"https://github.com/AmandaFlores7/HomeAutomationWizard/tree/main/HAW-FED"
+        },
+        {
+            "project_title":"IoT weather station",
+            "project_description":"Development of a web IoT weather station with Flask, PHP, Chart.js in conjunction with Arduino Uno and the BPM280 sensor.",
+            "project_picture":"/assets/img/bpm280.jpg",
+            "project_year_date":"2020",
+            "project_months":"MAR - DEC",
+            "project_link":""
+        }
+    ],
+    "Ecommerce": [
+        {
+            "project_title":"Athenas Ecommerce",
+            "project_description":"Development with Angular 11 of a website for the sale of sporting goods. Included authentication, inventory and administration.",
+            "project_picture":"/assets/img/athenasecommerce.svg",
+            "project_year_date":"2020",
+            "project_months":"MAR - DEC",
+            "project_link":"https://github.com/kataplan/AthenasEcommerce"
+        }
+    ],
+    "Artificial Intelligence":[
+        {
+            "project_title":"Research laboratory number 4: Neural networks.",
+            "project_description":"The goal of the lab was to develop a neural network to classify wine quality. To do this, a variety of libraries were used, including pandas, numpy, tensorflow, keras, sklearn, matplotlib and seaborn.",
+            "project_picture":"/assets/img/winequality.jpeg",
+            "project_year_date":"2023",
+            "project_months":"JUN",
+            "project_link":"https://github.com/therexuz/lab4_IA"
+        },
+        {
+            "project_title":"Research laboratory number 3: Classification models.",
+            "project_description":"The goal of the lab was to develop classification models for the 'winequality-red' and 'winequality-white' datasets. To do this, several libraries were used, including numpy, pandas, matplotlib, seaborn and sklearn. The classification models used include SVC, DecisionTreeClassifier and RandomForestClassifier.",
+            "project_picture":"/assets/img/winequality.jpeg",
+            "project_year_date":"2023",
+            "project_months":"JUN",
+            "project_link":"https://github.com/therexuz/lab3_IA"
+        },
+        {
+            "project_title":"Research laboratory number 2: Linear Regression Module.",
+            "project_description":"The goal of the lab was to develop classification models for the 'winequality-red' and 'winequality-white' datasets. To do this, several libraries were used, including numpy, pandas, matplotlib, seaborn and sklearn. The classification models used include SVC, DecisionTreeClassifier and RandomForestClassifier.",
+            "project_picture":"/assets/img/winequality.jpeg",
+            "project_year_date":"2023",
+            "project_months":"MAY",
+            "project_link":"https://github.com/therexuz/lab2_IA"
+        },
+        {
+            "project_title":"Research laboratory number 1: Metaheuristics with genetic algorithm",
+            "project_description":"This work consists of the implementation of a genetic algorithm to solve a given problem. The initial state of the problem is a randomly generated 16x16 binary matrix.",
+            "project_picture":"/assets/img/genetic-algorithm.png",
+            "project_year_date":"2023",
+            "project_months":"APR",
+            "project_link":"https://github.com/therexuz/lab1_IA"
+        }
+    ]
+}
