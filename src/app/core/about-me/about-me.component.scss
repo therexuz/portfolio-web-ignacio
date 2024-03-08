@@ -59,7 +59,7 @@ hr {
 
 .card-skills {
     box-sizing: border-box;
-    width: 40%;
+    width: 30%;
     height: auto;
     background: linear-gradient(to bottom, rgb(88, 14, 128) 0%, rgba(184, 65, 248, 0.864) 100%);
     border: 1px solid rgb(0, 0, 0);
@@ -72,11 +72,11 @@ hr {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    user-select: none;
+    text-align: center;
     font-weight: bolder;
     color: white;
 
-    div{
+    div {
         display: flex;
         flex-wrap: wrap;
         gap: 1rem;
@@ -99,9 +99,21 @@ img {
     width: 80px;
 }
 
-@media (max-width:768px){
+.technology {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    font-size: 12px;
+}
 
-    .card-skills{
+.paragraph-text {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+@media (max-width:768px) {
+
+    .card-skills {
         width: 100%;
     }
 }
